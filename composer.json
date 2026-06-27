@@ -1,0 +1,28 @@
+{
+  "name": "johnatas-x/grumphp-phpmd3",
+  "description": "GrumPHP extension based on guvra's work to support PHPMD 3.x",
+  "type": "library",
+  "homepage": "https://github.com/johnatas-x/grumphp-phpmd3",
+  "require": {
+    "phpmd/phpmd": "3.x-dev#2a9217f60aaf27bf6ddad9188f254d020ab70745",
+    "phpro/grumphp": "2.22.0"
+  },
+  "authors": [
+    {
+      "name": "Johnatas",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/johnatas-x/grumphp-phpmd3/issues",
+    "source": "https://github.com/johnatas-x/grumphp-phpmd3"
+  },
+  "autoload": {
+    "psr-4": {"GrumphpPhpMd3\\": "src/"}
+  },
+  "config": {
+    "allow-plugins": {
+      "phpro/grumphp": true
+    }
+  }
+}

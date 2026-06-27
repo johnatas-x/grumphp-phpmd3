@@ -1,0 +1,8 @@
+services:
+  GrumphpPhpMd3\PhpMd3:
+    class: GrumphpPhpMd3\PhpMd3
+    arguments:
+      - '@process_builder'
+      - '@formatter.raw_process'
+    tags:
+      - {name: grumphp.task, task: phpmd3}
