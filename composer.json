@@ -4,7 +4,7 @@
   "type": "library",
   "homepage": "https://github.com/johnatas-x/grumphp-phpmd3",
   "require": {
-    "phpmd/phpmd": "3.x-dev#2a9217f60aaf27bf6ddad9188f254d020ab70745",
+    "phpmd/phpmd": "3.x-dev#1351e0bb4e2b85fcfe3c61c35317b13df0d61eeb",
     "phpro/grumphp": "2.24.0"
   },
   "authors": [
