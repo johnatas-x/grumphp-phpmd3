@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This repository has been archived because this feature was added to GrumPHP version 2.26.0.
+
 # Description
 
 This repository allows you to use guvra's work to add support for PHPMD 3.x in GrumPHP.
